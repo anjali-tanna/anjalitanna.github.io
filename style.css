@@ -1,0 +1,99 @@
+/* Styling the Body and text fonts*/
+body {
+    background: white;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+/* Styling the Navbar*/
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link {
+    color: #7C3FF6;
+    font-size: 1.3rem;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+#mainNavbar.navbar.scrolled .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #2F0B76;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+#mainNavbar .navbar-brand {
+    color: #7C3FF6;
+    font-size: 1.5rem;
+}
+
+.navbar.scrolled {
+    background: #C0A9ED;
+    transition: background 300ms;
+
+}
+
+/* Adjusting the anchors to each sections so that the header is not hidden by the navbar. Try commenting the code below this specific comment to see how the section
+header gets hidden by the navbar*/
+
+#aboutme,
+#projects,
+#experience,
+#leadership,
+#interests {
+    scroll-margin-top: 100px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    max-width: 90%;
+    height: auto;
+    margin: 10px;
+}
+
+.carousel-container {
+    background-color: white;
+    height: 500px;
+    width: 420px;
+    align-items: center;
+    box-shadow: 4px 4px 16px rgb(225, 225, 225);
+  }
+  
+  .photo-container {
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 20px 10px 0 10px;
+    background-color: white;
+    background-image: linear-gradient(white, snow);
+    box-shadow: 0 1px 5px rgb(177, 176, 176), 
+                inset 1px 1px 2px rgb(255, 255, 255);
+  }
