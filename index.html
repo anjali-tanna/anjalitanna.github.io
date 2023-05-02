@@ -64,29 +64,41 @@
 
 
     <!-- Section 1: Title -->
-    <section class="container-fluid px-0 py-0" style="margin-top:150px">
+    <section class="container-fluid px-0 py-0" style="display: block; margin-top:150px">
         <div>
-            <h1 style="text-align:center; font-weight: bold;"> Anjali Tanna </h1>
-        
+            <h1 style="text-align:center; font-weight: bold; font-size: 60px; color: #7C3FF6;"> Anjali Tanna </h1>
         </div>
-        <div class="carousel-container" style="display: block; margin: 0 auto;">
-            <div class="photo-container">
-              <img id="photo-1" src="/pics/anjali.png" alt="">
-              <img id="photo-2" src="/pics/anjali2.png" alt="">
-              <img id="photo-3" src="/pics/anjali3.png" alt="">
-              <img id="photo-4" src="/pics/anjali4.png" alt="">
+        <div class="slidershow" style="display: block; margin:0 auto;">
+            <div class="slides">
+                <input type="radio" name="r" id="r1" checked>
+                <input type="radio" name="r" id="r2">
+                <input type="radio" name="r" id="r3">
+                <input type="radio" name="r" id="r4">
+                <input type="radio" name="r" id="r5">
+                <div class="slide s1">
+                    <img src="pics/1.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="pics/2.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="pics/3.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="pics/4.jpg" alt="">
+                </div>
             </div>
-        
-            <div class="button-container">
-              <a class="button" href="#photo-1"></a>
-              <a class="button" href="#photo-2"></a>
-              <a class="button" href="#photo-3"></a>
-              <a class="button" href="#photo-4"></a>
+            <div class="navigation">
+                <label for="r1" class="dot"></label>
+                <label for="r2" class="dot"></label>
+                <label for="r3" class="dot"></label>
+                <label for="r4" class="dot"></label>
             </div>
-          </div>
+        </div>
 
-          <br>
-          <br>
+
+        <br>
+        <br>
 
         <div class="links">
             <a href="mailto:tanna.a@northeastern.edu " target="_blank">
